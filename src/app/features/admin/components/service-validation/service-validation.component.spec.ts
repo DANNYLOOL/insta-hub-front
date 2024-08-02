@@ -8,7 +8,7 @@ describe('ServiceValidationComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ServiceValidationComponent]
+      declarations: [ServiceValidationComponent]
     })
     .compileComponents();
 

@@ -8,7 +8,7 @@ describe('AdditionalServicesComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AdditionalServicesComponent]
+      declarations: [AdditionalServicesComponent]
     })
     .compileComponents();
 

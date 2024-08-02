@@ -8,7 +8,7 @@ describe('RoomListComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RoomListComponent]
+      declarations: [RoomListComponent]
     })
     .compileComponents();
 

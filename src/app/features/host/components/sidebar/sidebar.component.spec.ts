@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RatingDashboardComponent } from './rating-dashboard.component';
+import { SidebarComponent } from './sidebar.component';
 
-describe('RatingDashboardComponent', () => {
-  let component: RatingDashboardComponent;
-  let fixture: ComponentFixture<RatingDashboardComponent>;
+describe('SidebarComponent', () => {
+  let component: SidebarComponent;
+  let fixture: ComponentFixture<SidebarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RatingDashboardComponent]
+      declarations: [SidebarComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(RatingDashboardComponent);
+    fixture = TestBed.createComponent(SidebarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

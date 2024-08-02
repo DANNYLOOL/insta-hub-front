@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RoleManagementComponent } from './role-management.component';
+import { NavbarComponent } from './navbar.component';
 
-describe('RoleManagementComponent', () => {
-  let component: RoleManagementComponent;
-  let fixture: ComponentFixture<RoleManagementComponent>;
+describe('NavbarComponent', () => {
+  let component: NavbarComponent;
+  let fixture: ComponentFixture<NavbarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [RoleManagementComponent]
+      declarations: [NavbarComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(RoleManagementComponent);
+    fixture = TestBed.createComponent(NavbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
